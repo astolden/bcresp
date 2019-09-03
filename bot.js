@@ -4,7 +4,7 @@ console.log("3bker");
 var prefix = "$";
 client.on("message", message => {
 
-            if (message.content.startsWith(prefix + "as")) {
+            if (message.content.startsWith(prefix + "res")) {
                          if (!message.member.hasPermission("ADMINISTRATOR"))  return;
   let args = message.content.split(" ").slice(1);
   var argresult = args.join(' '); 
@@ -23,7 +23,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : black ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Astolden...`,"http://twitch.tv/Death Shop")
+client.user.setGame(`Respect...`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
